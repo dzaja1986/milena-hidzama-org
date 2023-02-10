@@ -1,0 +1,25 @@
+.navbar {
+    background-color: pink;
+    border-bottom: 3px solid rgb(176, 130, 137);
+  }
+  
+  .navbar-brand {
+    margin-left: 5rem;
+  }
+  
+  .navbar-nav {
+    margin-right: 5rem;
+    font-size: 15px;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 3.5rem;
+  }
+  

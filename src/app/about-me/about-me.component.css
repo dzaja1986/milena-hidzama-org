@@ -1,0 +1,25 @@
+.start-side {
+  display: flex;
+}
+
+@media (min-width: 1200px) and (max-width: 1550px) {
+  .carousel-inner {
+    height: 745px !important;
+  }
+}
+
+@media (min-width: 1555px) {
+  .carousel-inner {
+    height: 1225px !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 1180px) {
+  .start-side {
+    display: flex;
+    flex-direction: column;
+  }
+  .w-50 {
+    width: 100% !important;
+  }
+}

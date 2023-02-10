@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+  min-height: 100%;
+}
+body {
+  background-color: rgb(247, 231, 212);
+}
+
+.card img {
+  padding: 10px;
+  height: 250px;
+}
+
+.card-img-wrapper {
+  height: 250px;
+}
+
+.ngx-gallery {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 1rem;
+}
+
+.usluge-title {
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  width: 48%;
+  padding-top: 2rem;
+}
+
+@media (min-width: 280px) and (max-width: 1180px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .ngx-gallery {
+    width: 100% !important;
+  }
+  .title-text {
+    padding: 0.5rem;
+    width: 100% !important;
+  }
+}
